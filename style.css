@@ -1,28 +1,26 @@
 html {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 @font-face {
     font-family: Montserrat;
     src: url(fonts/Montserrat-VariableFont_wght.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: Caveat Brush;
     src: url(fonts/CaveatBrush-Regular.ttf);
-  }
+}
 
 
 .container {
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 @media only screen and (max-width:768px) {
     .text-container {
-        width:100px;
+        width:200px;
     }
 }
 
@@ -31,7 +29,7 @@ html {
     padding: 50px;
     border-radius: 15px;
     background-color: #770752;
-    width: 370px;
+    width: 380px;
     margin: 0 auto;
     margin-bottom: 25px;
     text-align: center;
@@ -41,8 +39,7 @@ body {
     padding: 0;
     background-image: url('assets/background/checkerboard.png');
     background-size:cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
 }
 
 h1 {
