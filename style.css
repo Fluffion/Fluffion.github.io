@@ -39,7 +39,7 @@ html {
 
 body {
     padding: 0;
-    background-image: url('assets/background/background.gif');
+    background-image: url('assets/background/checkerboard.png');
     background-size:cover;
     background-attachment: fixed;
     
