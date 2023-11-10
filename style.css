@@ -13,6 +13,17 @@ html {
     src: url(fonts/CaveatBrush-Regular.ttf);
 }
 
+#fluffion a {
+    font-size: 70px;
+    transition: all 800ms;
+}
+
+#fluffion a:hover {
+    font-size: 75px;
+    font-size-adjust: 120%;
+    text-decoration: none;
+}
+
 
 .container {
     margin: 0 auto;    
@@ -55,6 +66,14 @@ h2 {
 }
 
 p {
+    text-align:left;
+    font-size: 25px;
+    font-family:montserrat;
+    text-shadow: 3px 3px 0px #00000060;
+    color: #E9EBEB
+}
+
+#social {
     text-align:left;
     font-size: 25px;
     font-family:montserrat;
