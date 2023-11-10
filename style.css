@@ -18,6 +18,12 @@ html {
     margin: 0 auto;    
 }
 
+@media only screen and (max-width:768px) {
+    .text-container {
+        width:220px;
+    }
+}
+
 .text-container {
     border: 2px solid #af0d79;
     padding: 50px;
