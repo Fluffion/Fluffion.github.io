@@ -73,6 +73,14 @@ p {
     color: #E9EBEB
 }
 
+#clock {
+    text-align:left;
+    font-size: 25px;
+    font-family:montserrat;
+    text-shadow: 3px 3px 0px #00000060;
+    color: #E9EBEB
+}
+
 #social {
     text-align:left;
     font-size: 25px;
