@@ -45,6 +45,7 @@ body {
     background-image: url('assets/background/checkerboard.png');
     background-size:cover;
     background-attachment: fixed;  
+    overscroll-behavior-y: none;
 }
 
 h1 {
