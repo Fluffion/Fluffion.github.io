@@ -1,5 +1,5 @@
 function startTime() {
-    offset = 0;
+    offset = 1;
     var today = new Date();
     var h = today.getUTCHours();
     var m = today.getUTCMinutes();
