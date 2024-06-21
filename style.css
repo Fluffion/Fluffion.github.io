@@ -16,18 +16,6 @@ html {
     src: url(fonts/DK\ Cool\ Crayon.ttf);
 }
 
-#fluffion a {
-    font-size: 70px;
-    transition: all 800ms;
-}
-
-#fluffion a:hover {
-    font-size: 75px;
-    font-size-adjust: 120%;
-    text-decoration: none;
-}
-
-
 .container {
     margin: 0 auto;    
 }
