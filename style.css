@@ -77,7 +77,7 @@ p {
     text-align:left;
     font-size: 25px;
     font-family:montserrat;
-    text-shadow: 3px 3px 0px #00000060;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.376);
     color: #E9EBEB
 }
 
