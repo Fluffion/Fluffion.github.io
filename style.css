@@ -3,7 +3,6 @@ html {
     margin-bottom: 0;
     background-image: url('assets/background/crayon\ background.gif');
     background-size:cover;
-    background-attachment: fixed;  
 }
 
 @font-face {
