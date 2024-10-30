@@ -19,12 +19,18 @@ html {
     margin: 0 auto;    
 }
 
+@media (max-width: 1000px) { 
+    .text-container {
+        width: 60% !important;
+    }
+}
+  
 .text-container {
     border: 2px solid #af0d79;
     padding: 50px;
     border-radius: 15px;
     background-color: #770752;
-    width: 380px;
+    width: 25%;
     margin: 0 auto;
     margin-bottom: 25px;
     text-align: center;
