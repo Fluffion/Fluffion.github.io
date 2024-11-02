@@ -4,6 +4,8 @@
   "haii",
   "yo waddup",
   "listen to Lemon Demon",
+  "listen to Tally Hall",
+  "listen to glass beach",
   "fortnite",
   "eating Burger King",
   "paws",

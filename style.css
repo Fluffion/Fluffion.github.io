@@ -10,22 +10,10 @@ html {
     src: url(fonts/DK\ Cool\ Crayon.ttf);
 }
 
-@font-face {
-    font-family: DK Cool Crayon;
-    src: url(fonts/DK\ Cool\ Crayon.ttf);
-}
-
 .container {
     margin: 0 auto;    
 }
 
-@media (max-width: 1000px) { 
-    .text-container {
-        width: 60% !important;
-        font-size: 3.2em;
-    }
-}
-  
 .text-container {
     border: 2px solid #af0d79;
     padding: 50px;
@@ -46,7 +34,15 @@ h1 {
     font-size: 60px;
     font-family:DK Cool Crayon;
     text-shadow: 3px 3px 0px #00000060;
-    color: #E9EBEB
+    color: #ffd664
+}
+
+h2 {
+    text-align:center;
+    font-size: 38px;
+    font-family:DK Cool Crayon;
+    text-shadow: 3px 3px 0px #00000060;
+    color: #ffd664
 }
 
 h3 {
@@ -59,15 +55,18 @@ h3 {
     color: #ffd664
 }
 
-p {
-    text-align:left;
-    font-size: 25px;
+h4 {
+    position:relative;
+    bottom: 30px;
+    text-align:center;
+    font-size: 30px;
     font-family:DK Cool Crayon;
     text-shadow: 3px 3px 0px #00000060;
-    color: #E9EBEB
+    color: #ffd664
 }
 
-#clock {
+
+p {
     text-align:left;
     font-size: 25px;
     font-family:DK Cool Crayon;
@@ -78,6 +77,14 @@ p {
 #social {
     text-align:left;
     font-size: 25px;
+    font-family:DK Cool Crayon;
+    text-shadow: 3px 3px 0px #00000060;
+    color: #E9EBEB
+}
+
+#end {
+    text-align:left;
+    font-size: 20px;
     font-family:DK Cool Crayon;
     text-shadow: 3px 3px 0px #00000060;
     color: #E9EBEB
@@ -94,3 +101,67 @@ a:link {
 a:hover, a:active {
     text-decoration:underline
 }
+
+/* mobile view below :3 */
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin: 0 auto;    
+    }
+    
+    .text-container {
+        border: 2px solid #af0d79;
+        padding: 60px;
+        border-radius: 25px;
+        background-color: #770752;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    body {
+        padding: 0;
+    }
+    
+    h1 {
+        text-align:center;
+        font-size: 75px;
+    }
+    
+    h2 {
+        text-align:center;
+        font-size: 60px;
+    }
+
+    h3 {
+        bottom: 30px;
+        font-size: 25px;
+    }
+    
+    h4 {
+        position:relative;
+        bottom: 30px;
+        text-align:center;
+        font-size: 3.2em;
+        font-family:DK Cool Crayon;
+        text-shadow: 3px 3px 0px #00000060;
+        color: #ffd664
+    }
+    
+    p {
+        text-align:left;
+        font-size: 45px;
+    }
+
+    #social {
+        text-align:left;
+        font-size: 45px;
+    }
+
+    #end {
+        text-align:left;
+        font-size: 30px;
+    }
+  }
