@@ -1,5 +1,5 @@
 window.onload = function() {
-  var titles = ['the big red thing’s site', '<-- slugcat fella', 'T.W.O.A.T.', 'psst, play Rain World', 'the site'];
+  var titles = ['the big red thing’s site', '<-- slugcat fella', 'the website of all time', 'psst, play Rain World', 'the site', 'property of F'];
   var random = Math.floor(Math.random() * titles.length);
   var titleElement = document.getElementById('title')
   titleElement.innerHTML = titles[random];
